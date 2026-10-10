@@ -1,0 +1,41 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/run-with-swc.mjs next dev",
+    "build": "node scripts/run-with-swc.mjs next build",
+    "start": "next start",
+    "lint": "node scripts/run-with-swc.mjs eslint",
+    "serve": "npx serve@latest out"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.1.0",
+    "framer-motion": "^12.0.0",
+    "katex": "^0.16.11",
+    "lenis": "^1.1.0",
+    "next": "^15.5.0",
+    "next-intl": "^4.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/katex": "^0.16.7",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.180.0",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true,
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.16.13": true
+  }
+}

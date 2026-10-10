@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "title": "Kleison Silva — Engenheiro Civil",
+    "description": "Engenheiro civil especializado em mecânica de pavimentos, ciência dos materiais e modelagem computacional. Futuro doutorando na ÉTS Montréal."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "phd": "Doutorado",
+    "contact": "Contato",
+    "downloadCv": "Baixar CV"
+  },
+  "home": {
+    "name": "KLEISON SILVA",
+    "tagline": "Engenheiro Civil · Mecânica de Pavimentos · Modelagem Computacional",
+    "subtitle": "Doutorando na ÉTS Montréal (a iniciar) — Inverno 2027",
+    "viewProjects": "Ver projetos",
+    "downloadCv": "Baixar CV",
+    "highlights": {
+      "research": {
+        "title": "Pesquisa",
+        "body": "Avaliação não destrutiva de pavimentos, caracterização de materiais e a mecânica por trás de estruturas rodoviárias duradouras."
+      },
+      "engineering": {
+        "title": "Engenharia",
+        "body": "De campanhas experimentais ao projeto estrutural, conectando medições de campo a uma prática sólida de engenharia civil."
+      },
+      "simulation": {
+        "title": "Simulação",
+        "body": "Modelagem numérica e por elementos finitos (Ansys, Comsol, Abaqus) para prever o comportamento termomecânico e à fadiga."
+      }
+    }
+  },
+  "about": {
+    "metaTitle": "Sobre",
+    "kicker": "// sobre",
+    "title": "Sobre",
+    "subtitle": "Engenheiro civil na interseção entre materiais, mecânica e computação.",
+    "bio": {
+      "p1": "Engenheiro civil concluindo atualmente dupla diplomação na Universidade Federal do Ceará (UFC, Brasil) e no INSA Rennes (França), com foco de pesquisa em mecânica de pavimentos, ciência dos materiais e modelagem numérica.",
+      "p2": "Futuro doutorando na ÉTS Montréal (Canadá), investigando técnicas de auscultação não destrutiva — em particular o deflectômetro de impacto (FWD) — para a avaliação de pavimentos municipais, com ênfase em materiais reciclados a frio e no comportamento sob gelo-degelo.",
+      "p3": "Entre estágios de pesquisa e experiência na indústria, conecto a experimentação em laboratório, a medição em campo e a simulação por elementos finitos para entender como as estruturas rodoviárias se deformam, fadigam e perduram."
+    },
+    "skills": {
+      "title": "Competências",
+      "languagesTitle": "Idiomas",
+      "groups": {
+        "programming": "Programação",
+        "simulation": "Simulação Numérica",
+        "cad": "CAD / BIM",
+        "experimental": "Experimental",
+        "tools": "Dados / Ferramentas"
+      },
+      "levels": {
+        "native": "Nativo",
+        "b2": "B2"
+      }
+    },
+    "timeline": {
+      "title": "Trajetória",
+      "hint": "Clique em um nó para ver os detalhes.",
+      "types": {
+        "education": "Formação",
+        "research": "Pesquisa",
+        "experience": "Experiência"
+      },
+      "status": {
+        "ongoing": "Em andamento",
+        "incoming": "A iniciar"
+      },
+      "bsc": {
+        "title": "Bacharelado em Engenharia Civil",
+        "org": "Universidade Federal do Ceará (UFC) · Brasil",
+        "desc": "Classificado entre os 5 melhores de 589 alunos, com média 9,33/10. Base sólida em engenharia estrutural, geotécnica e de transportes."
+      },
+      "fatigue": {
+        "title": "Fadiga de Materiais Cimentícios",
+        "org": "UFC · Grupo ReoM",
+        "desc": "Estudo experimental da resposta à fadiga de materiais cimentícios, caracterizando o comportamento S–N sob carregamento cíclico."
+      },
+      "rheology": {
+        "title": "Reologia de Materiais",
+        "org": "UFC",
+        "desc": "Investigação do comportamento reológico de materiais de construção, relacionando a resposta viscoelástica à composição e à temperatura."
+      },
+      "thermo": {
+        "title": "Análise Termomecânica de Fundações",
+        "org": "UFC",
+        "desc": "Análise termomecânica numérica de fundações maciças de concreto, modelando a geração de calor e os gradientes térmicos resultantes."
+      },
+      "ultrasonic": {
+        "title": "Caracterização por Ondas Ultrassônicas",
+        "org": "UFC · Financiado pela FUNCAP",
+        "desc": "Caracterização não destrutiva de materiais de pavimento por propagação de ondas ultrassônicas e análise da resposta em frequência."
+      },
+      "insa": {
+        "title": "Dupla Diplomação — Engenharia Civil e Urbana",
+        "org": "INSA Rennes · França",
+        "desc": "Programa de engenharia em dupla diplomação que amplia o currículo brasileiro com uma especialização europeia em engenharia civil e urbana."
+      },
+      "master": {
+        "title": "Mestrado em Pesquisa — Engenharia de Projeto",
+        "org": "INSA Rennes · França",
+        "desc": "Mestrado voltado à pesquisa, com foco em engenharia de projeto e métodos avançados de modelagem."
+      },
+      "eiffage": {
+        "title": "Estágio de Monitoramento de Pavimentos",
+        "org": "Eiffage · Lyon, França",
+        "desc": "Monitoramento estrutural de pavimentos rodoviários por técnicas não destrutivas (FWD), das campanhas de campo à interpretação das bacias de deflexão."
+      },
+      "phd": {
+        "title": "Doutorado — Avaliação Não Destrutiva de Pavimentos",
+        "org": "ÉTS Montréal · Canadá",
+        "desc": "Pesquisa de doutorado sobre auscultação por FWD de pavimentos municipais, incluindo materiais reciclados a frio e efeitos de gelo-degelo."
+      }
+    },
+    "terminal": {
+      "title": "Terminal",
+      "hint": "Um shell interativo — tente 'help', 'whoami' ou 'projects'.",
+      "welcome": "Bem-vindo. Este é um currículo interativo em linha de comando.",
+      "whoami": "Kleison Silva Carvalho — engenheiro civil · mecânica de pavimentos · modelagem computacional. Atualmente entre Brasil, França e (em breve) Canadá.",
+      "phd": "Início no inverno de 2027 na ÉTS Montréal — avaliação não destrutiva de pavimentos municipais (FWD, materiais reciclados a frio, gelo-degelo).",
+      "sudo": "boa tentativa. permissão negada — mas admiro a curiosidade.",
+      "notFound": "comando não encontrado. digite 'help'."
+    }
+  },
+  "projects": {
+    "kicker": "// trabalhos",
+    "title": "Projetos",
+    "subtitle": "Trabalhos de pesquisa, engenharia e experimentais em mecânica de pavimentos e materiais.",
+    "filters": {
+      "all": "Todos",
+      "research": "Pesquisa",
+      "internship": "Estágio",
+      "academic": "Acadêmico"
+    },
+    "categories": {
+      "research": "Pesquisa",
+      "internship": "Estágio",
+      "academic": "Acadêmico"
+    },
+    "ongoing": "Em andamento",
+    "viewProject": "Ver projeto",
+    "back": "Voltar aos projetos",
+    "keyEquations": "Equações Principais",
+    "tags": "Tags",
+    "externalLink": "Link externo",
+    "items": {
+      "pavement-monitoring": {
+        "title": "Monitoramento de Pavimentos de Estruturas Rodoviárias",
+        "summary": "Avaliação estrutural de pavimentos rodoviários usando o deflectômetro de impacto (FWD) e a análise da bacia de deflexão.",
+        "description": "Como parte de um estágio na Eiffage em Lyon, este trabalho monitora a condição estrutural de pavimentos rodoviários por meio de ensaios não destrutivos. O deflectômetro de impacto aplica uma carga impulsiva calibrada e registra a bacia de deflexão resultante em um conjunto de geofones.\nA partir das bacias medidas, os módulos das camadas são retrocalculados e comparados às expectativas de projeto, permitindo decisões baseadas em dados sobre manutenção e reabilitação. Correções de temperatura são aplicadas para que medições feitas em condições diferentes permaneçam comparáveis."
+      },
+      "fatigue-cementitious": {
+        "title": "Fadiga de Materiais Cimentícios",
+        "summary": "Caracterização da vida à fadiga de materiais cimentícios sob carregamento cíclico em uma prensa UTM-25.",
+        "description": "Realizado no grupo ReoM da UFC, este estudo caracteriza como materiais cimentícios se degradam sob carregamento repetido. Os corpos de prova são ensaiados em uma prensa servo-hidráulica UTM-25 em uma faixa de amplitudes de tensão.\nA relação tensão–vida (S–N) resultante é ajustada por uma lei de potência do tipo Basquin, fornecendo parâmetros de fadiga que alimentam o projeto de pavimentos e estruturas contra o dano cíclico."
+      },
+      "ultrasonic-characterization": {
+        "title": "Caracterização por Ondas Ultrassônicas de Materiais de Pavimento",
+        "summary": "Caracterização não destrutiva de materiais de pavimento por propagação de ondas ultrassônicas e análise da resposta em frequência.",
+        "description": "Este projeto financiado pela FUNCAP usa ondas ultrassônicas para sondar as propriedades elásticas de materiais de pavimento sem danificar os corpos de prova. As velocidades de onda e as funções de resposta em frequência são medidas e relacionadas à rigidez e à estrutura interna do material.\nA abordagem oferece uma forma rápida e reproduzível de acompanhar como a composição e a cura afetam o desempenho mecânico, complementando os ensaios destrutivos de laboratório."
+      },
+      "rheology-aam": {
+        "title": "Reologia de Materiais Álcali-Ativados",
+        "summary": "Investigação do comportamento de fluência e viscoelástico de materiais álcali-ativados com um modelo de Burgers.",
+        "description": "Materiais álcali-ativados são uma alternativa promissora e de baixo carbono ao cimento comum. Este trabalho estuda sua deformação dependente do tempo sob carga sustentada dentro de uma câmara climática.\nA resposta de fluência medida é descrita por um modelo de Burgers de quatro elementos, separando as contribuições instantânea, viscoelástica e viscosa para apoiar avaliações de durabilidade."
+      },
+      "thermomechanical-foundations": {
+        "title": "Análise Termomecânica de Fundações Maciças de Concreto",
+        "summary": "Modelagem da geração de calor e dos gradientes térmicos em fundações maciças de concreto com ANSYS.",
+        "description": "Elementos maciços de concreto liberam calor significativo durante a cura, e os gradientes térmicos resultantes podem fissurar a estrutura. Usando o ANSYS, este estudo modela a transferência de calor transiente acoplada à resposta mecânica da fundação.\nAs simulações mapeiam os campos de temperatura e as concentrações de tensão ao longo do tempo, apoiando escolhas de sequência de concretagem, resfriamento e dosagem para limitar a fissuração em idade jovem."
+      },
+      "scientific-events": {
+        "title": "Eventos Científicos & Voluntariado",
+        "summary": "Organização de eventos de engenharia (Semana de Engenharia, Aqualibrium) e coautoria de um e-book de química olímpica.",
+        "description": "Além da pesquisa, organizei e apoiei ações de divulgação científica: coordenação da Semana de Engenharia, realização da competição de estruturas hidráulicas Aqualibrium e coautoria de um e-book sobre química olímpica.\nEssas atividades fortaleceram habilidades de comunicação, trabalho em equipe e logística de eventos, ao mesmo tempo em que retribuíram à comunidade estudantil."
+      }
+    }
+  },
+  "phd": {
+    "metaTitle": "Doutorado",
+    "kicker": "// doutorado",
+    "title": "Pesquisa de Doutorado — ÉTS Montréal",
+    "subtitle": "Avaliação Não Destrutiva de Pavimentos Municipais",
+    "status": "Início no inverno de 2027",
+    "description": "As redes viárias municipais são uma infraestrutura crítica cujo desempenho afeta diretamente a mobilidade. No Québec, o envelhecimento dos pavimentos e as condições climáticas rigorosas tornam essenciais melhores métodos de diagnóstico para planejar a reabilitação. Este projeto foca em técnicas de auscultação não destrutiva — em particular o deflectômetro de impacto (FWD) — para caracterizar melhor o comportamento estrutural de pavimentos municipais, incluindo materiais reciclados a frio (grave-emulsão, betume espumado). As variações de temperatura em profundidade e os ciclos de gelo-degelo são considerados para aprimorar a interpretação e apoiar a tomada de decisão.",
+    "axes": {
+      "title": "Eixos de Pesquisa",
+      "fwd": {
+        "title": "FWD & Bacias de Deflexão",
+        "desc": "Interpretação de dados do deflectômetro de impacto e retrocálculo dos módulos das camadas a partir das bacias medidas."
+      },
+      "cold": {
+        "title": "Materiais Reciclados a Frio",
+        "desc": "Caracterização de materiais de grave-emulsão e betume espumado usados na reabilitação sustentável de pavimentos."
+      },
+      "freeze": {
+        "title": "Gelo-Degelo & Temperatura",
+        "desc": "Consideração dos gradientes de temperatura em profundidade e dos ciclos de gelo-degelo na interpretação estrutural."
+      },
+      "monitoring": {
+        "title": "Monitoramento de Trechos Experimentais",
+        "desc": "Instrumentação e monitoramento de trechos experimentais de pavimento para validar modelos frente ao comportamento de campo."
+      }
+    },
+    "timeline": {
+      "title": "Roteiro",
+      "current": "Atual",
+      "w2026": {
+        "period": "2027 · Inverno",
+        "title": "Início do doutorado",
+        "desc": "Disciplinas, revisão de literatura e definição do programa experimental."
+      },
+      "s2026": {
+        "period": "2027 · Verão",
+        "title": "Primeiras campanhas experimentais",
+        "desc": "Primeiras medições FWD e caracterização de materiais em trechos selecionados."
+      },
+      "y2027": {
+        "period": "2028",
+        "title": "Primeiros resultados",
+        "desc": "Análise dos primeiros dados e primeiras submissões a conferências."
+      },
+      "future": {
+        "period": "2028 →",
+        "title": "A continuar",
+        "desc": "Marcos, publicações e resultados serão adicionados aqui conforme a pesquisa avança."
+      }
+    },
+    "publications": {
+      "title": "Publicações & Produções",
+      "comingSoon": "Em breve",
+      "comingSoonHint": "Publicações e produções aparecerão aqui conforme a pesquisa avança.",
+      "types": {
+        "journal": "Periódico",
+        "conference": "Conferência",
+        "preprint": "Preprint"
+      }
+    },
+    "log": {
+      "title": "Registro / Atualizações",
+      "hint": "Um changelog contínuo da pesquisa — mais recentes primeiro.",
+      "tags": {
+        "milestone": "Marco",
+        "reading": "Leitura",
+        "experiment": "Experimento",
+        "writing": "Redação"
+      }
+    }
+  },
+  "contact": {
+    "kicker": "// fale comigo",
+    "title": "Contato",
+    "subtitle": "Aberto a colaborações de pesquisa, dúvidas e oportunidades. Vamos conversar.",
+    "cards": {
+      "email": "E-mail",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "kaggle": "Kaggle"
+    },
+    "downloadCv": "Baixar CV (PDF)"
+  }
+}

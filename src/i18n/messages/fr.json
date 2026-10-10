@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "title": "Kleison Silva — Ingénieur Civil",
+    "description": "Ingénieur civil spécialisé en mécanique des chaussées, science des matériaux et modélisation numérique. Futur doctorant à l'ÉTS Montréal."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "phd": "Doctorat",
+    "contact": "Contact",
+    "downloadCv": "Télécharger le CV"
+  },
+  "home": {
+    "name": "KLEISON SILVA",
+    "tagline": "Ingénieur Civil · Mécanique des Chaussées · Modélisation Numérique",
+    "subtitle": "Doctorant à l'ÉTS Montréal (à venir) — Hiver 2027",
+    "viewProjects": "Voir les projets",
+    "downloadCv": "Télécharger le CV",
+    "highlights": {
+      "research": {
+        "title": "Recherche",
+        "body": "Évaluation non destructive des chaussées, caractérisation des matériaux et mécanique des structures routières durables."
+      },
+      "engineering": {
+        "title": "Ingénierie",
+        "body": "Des campagnes expérimentales à la conception structurale, reliant les mesures de terrain à une pratique rigoureuse du génie civil."
+      },
+      "simulation": {
+        "title": "Simulation",
+        "body": "Modélisation numérique et par éléments finis (Ansys, Comsol, Abaqus) pour prédire le comportement thermomécanique et en fatigue."
+      }
+    }
+  },
+  "about": {
+    "metaTitle": "À propos",
+    "kicker": "// à propos",
+    "title": "À propos",
+    "subtitle": "Ingénieur civil à l'intersection des matériaux, de la mécanique et du calcul.",
+    "bio": {
+      "p1": "Ingénieur civil achevant actuellement un double diplôme à l'Université Fédérale du Ceará (UFC, Brésil) et à l'INSA Rennes (France), avec un axe de recherche sur la mécanique des chaussées, la science des matériaux et la modélisation numérique.",
+      "p2": "Futur doctorant à l'ÉTS Montréal (Canada), où il étudiera les techniques d'auscultation non destructive — en particulier le déflectomètre à masse tombante (FWD) — pour l'évaluation des chaussées municipales, avec un accent sur les matériaux recyclés à froid et le comportement au gel-dégel.",
+      "p3": "À travers des stages de recherche et une expérience en entreprise, je relie l'expérimentation en laboratoire, la mesure sur le terrain et la simulation par éléments finis pour comprendre comment les structures routières se déforment, fatiguent et durent."
+    },
+    "skills": {
+      "title": "Compétences",
+      "languagesTitle": "Langues",
+      "groups": {
+        "programming": "Programmation",
+        "simulation": "Simulation Numérique",
+        "cad": "CAO / BIM",
+        "experimental": "Expérimental",
+        "tools": "Données / Outils"
+      },
+      "levels": {
+        "native": "Langue maternelle",
+        "b2": "B2"
+      }
+    },
+    "timeline": {
+      "title": "Parcours",
+      "hint": "Cliquez sur un nœud pour afficher les détails.",
+      "types": {
+        "education": "Formation",
+        "research": "Recherche",
+        "experience": "Expérience"
+      },
+      "status": {
+        "ongoing": "En cours",
+        "incoming": "À venir"
+      },
+      "bsc": {
+        "title": "Licence en Génie Civil",
+        "org": "Université Fédérale du Ceará (UFC) · Brésil",
+        "desc": "Classé 5e sur 589 étudiants avec une moyenne de 9,33/10. Base solide en génie structural, géotechnique et des transports."
+      },
+      "fatigue": {
+        "title": "Fatigue des Matériaux Cimentaires",
+        "org": "UFC · Groupe ReoM",
+        "desc": "Étude expérimentale de la réponse en fatigue des matériaux cimentaires, caractérisant le comportement S–N sous chargement cyclique."
+      },
+      "rheology": {
+        "title": "Rhéologie des Matériaux",
+        "org": "UFC",
+        "desc": "Étude du comportement rhéologique des matériaux de construction, reliant la réponse viscoélastique à la composition et à la température."
+      },
+      "thermo": {
+        "title": "Analyse Thermomécanique des Fondations",
+        "org": "UFC",
+        "desc": "Analyse thermomécanique numérique de fondations massives en béton, modélisant la génération de chaleur et les gradients thermiques résultants."
+      },
+      "ultrasonic": {
+        "title": "Caractérisation par Ondes Ultrasonores",
+        "org": "UFC · Financé par la FUNCAP",
+        "desc": "Caractérisation non destructive des matériaux de chaussée par propagation d'ondes ultrasonores et analyse de la réponse fréquentielle."
+      },
+      "insa": {
+        "title": "Double Diplôme — Génie Civil et Urbain",
+        "org": "INSA Rennes · France",
+        "desc": "Programme d'ingénierie en double diplôme prolongeant le cursus brésilien par une spécialisation européenne en génie civil et urbain."
+      },
+      "master": {
+        "title": "Master Recherche — Ingénierie de Conception",
+        "org": "INSA Rennes · France",
+        "desc": "Master orienté recherche axé sur l'ingénierie de conception et les méthodes de modélisation avancées."
+      },
+      "eiffage": {
+        "title": "Stage de Suivi des Chaussées",
+        "org": "Eiffage · Lyon, France",
+        "desc": "Suivi structurel de chaussées routières par techniques non destructives (FWD), des campagnes de terrain à l'interprétation des bassins de déflexion."
+      },
+      "phd": {
+        "title": "Doctorat — Évaluation Non Destructive des Chaussées",
+        "org": "ÉTS Montréal · Canada",
+        "desc": "Recherche doctorale sur l'auscultation par FWD des chaussées municipales, incluant les matériaux recyclés à froid et les effets du gel-dégel."
+      }
+    },
+    "terminal": {
+      "title": "Terminal",
+      "hint": "Un shell interactif — essayez 'help', 'whoami' ou 'projects'.",
+      "welcome": "Bienvenue. Ceci est un CV interactif en ligne de commande.",
+      "whoami": "Kleison Silva Carvalho — ingénieur civil · mécanique des chaussées · modélisation numérique. Actuellement entre le Brésil, la France et (bientôt) le Canada.",
+      "phd": "Début à l'hiver 2027 à l'ÉTS Montréal — évaluation non destructive des chaussées municipales (FWD, matériaux recyclés à froid, gel-dégel).",
+      "sudo": "bien tenté. permission refusée — mais j'admire la curiosité.",
+      "notFound": "commande introuvable. tapez 'help'."
+    }
+  },
+  "projects": {
+    "kicker": "// travaux",
+    "title": "Projets",
+    "subtitle": "Travaux de recherche, d'ingénierie et expérimentaux en mécanique des chaussées et science des matériaux.",
+    "filters": {
+      "all": "Tous",
+      "research": "Recherche",
+      "internship": "Stage",
+      "academic": "Académique"
+    },
+    "categories": {
+      "research": "Recherche",
+      "internship": "Stage",
+      "academic": "Académique"
+    },
+    "ongoing": "En cours",
+    "viewProject": "Voir le projet",
+    "back": "Retour aux projets",
+    "keyEquations": "Équations Clés",
+    "tags": "Mots-clés",
+    "externalLink": "Lien externe",
+    "items": {
+      "pavement-monitoring": {
+        "title": "Suivi des Chaussées d'Ouvrages Routiers",
+        "summary": "Évaluation structurelle de chaussées routières à l'aide du déflectomètre à masse tombante (FWD) et de l'analyse du bassin de déflexion.",
+        "description": "Dans le cadre d'un stage chez Eiffage à Lyon, ce travail suit l'état structurel des chaussées routières par essais non destructifs. Le déflectomètre à masse tombante applique une charge impulsionnelle calibrée et enregistre le bassin de déflexion résultant sur un ensemble de géophones.\nÀ partir des bassins mesurés, les modules des couches sont rétro-calculés et comparés aux attentes de dimensionnement, permettant des décisions fondées sur les données pour l'entretien et la réhabilitation. Des corrections de température sont appliquées afin que les mesures prises dans des conditions différentes restent comparables."
+      },
+      "fatigue-cementitious": {
+        "title": "Fatigue des Matériaux Cimentaires",
+        "summary": "Caractérisation de la durée de vie en fatigue de matériaux cimentaires sous chargement cyclique sur une presse UTM-25.",
+        "description": "Menée au sein du groupe ReoM à l'UFC, cette étude caractérise la dégradation des matériaux cimentaires sous chargement répété. Les éprouvettes sont testées sur une presse servo-hydraulique UTM-25 pour une gamme d'amplitudes de contrainte.\nLa relation contrainte–durée de vie (S–N) obtenue est ajustée par une loi de puissance de type Basquin, fournissant des paramètres de fatigue utiles au dimensionnement des chaussées et des structures contre l'endommagement cyclique."
+      },
+      "ultrasonic-characterization": {
+        "title": "Caractérisation par Ondes Ultrasonores des Matériaux de Chaussée",
+        "summary": "Caractérisation non destructive des matériaux de chaussée par propagation d'ondes ultrasonores et analyse de la réponse fréquentielle.",
+        "description": "Ce projet financé par la FUNCAP utilise des ondes ultrasonores pour sonder les propriétés élastiques des matériaux de chaussée sans endommager les éprouvettes. Les vitesses d'ondes et les fonctions de réponse fréquentielle sont mesurées et reliées à la rigidité et à la structure interne du matériau.\nL'approche offre un moyen rapide et reproductible de suivre l'effet de la composition et de la cure sur la performance mécanique, en complément des essais destructifs en laboratoire."
+      },
+      "rheology-aam": {
+        "title": "Rhéologie des Matériaux Activés par Alcalis",
+        "summary": "Étude du fluage et du comportement viscoélastique de matériaux activés par alcalis à l'aide d'un modèle de Burgers.",
+        "description": "Les matériaux activés par alcalis sont une alternative prometteuse et bas carbone au ciment ordinaire. Ce travail étudie leur déformation différée sous charge soutenue dans une chambre climatique.\nLa réponse de fluage mesurée est décrite par un modèle de Burgers à quatre éléments, séparant les contributions instantanée, viscoélastique et visqueuse afin d'éclairer l'évaluation de la durabilité."
+      },
+      "thermomechanical-foundations": {
+        "title": "Analyse Thermomécanique de Fondations Massives en Béton",
+        "summary": "Modélisation de la génération de chaleur et des gradients thermiques dans des fondations massives en béton avec ANSYS.",
+        "description": "Les éléments massifs en béton dégagent une chaleur importante lors de leur prise, et les gradients thermiques résultants peuvent fissurer la structure. À l'aide d'ANSYS, cette étude modélise le transfert de chaleur transitoire couplé à la réponse mécanique de la fondation.\nLes simulations cartographient les champs de température et les concentrations de contraintes au cours du temps, éclairant les choix de séquence de coulée, de refroidissement et de formulation pour limiter la fissuration au jeune âge."
+      },
+      "scientific-events": {
+        "title": "Événements Scientifiques & Bénévolat",
+        "summary": "Organisation d'événements d'ingénierie (Semana de Engenharia, Aqualibrium) et coécriture d'un e-book de chimie olympique.",
+        "description": "Au-delà de la recherche, j'ai organisé et soutenu des activités de vulgarisation scientifique : coordination de la Semana de Engenharia, animation du concours de structures hydrauliques Aqualibrium et coécriture d'un e-book sur la chimie olympique.\nCes activités ont renforcé mes compétences en communication, en travail d'équipe et en logistique événementielle tout en contribuant à la communauté étudiante."
+      }
+    }
+  },
+  "phd": {
+    "metaTitle": "Doctorat",
+    "kicker": "// doctorat",
+    "title": "Recherche Doctorale — ÉTS Montréal",
+    "subtitle": "Évaluation Non Destructive des Chaussées Municipales",
+    "status": "Début à l'hiver 2027",
+    "description": "Les réseaux routiers municipaux constituent une infrastructure critique dont la performance influe directement sur la mobilité. Au Québec, le vieillissement des chaussées et les conditions climatiques rigoureuses rendent essentielles de meilleures méthodes de diagnostic pour planifier la réhabilitation. Ce projet porte sur les techniques d'auscultation non destructive — en particulier le déflectomètre à masse tombante (FWD) — afin de mieux caractériser le comportement structurel des chaussées municipales, y compris les matériaux recyclés à froid (grave-émulsion, bitume moussé). Les variations de température en profondeur et les cycles de gel-dégel sont pris en compte pour améliorer l'interprétation et appuyer la prise de décision.",
+    "axes": {
+      "title": "Axes de Recherche",
+      "fwd": {
+        "title": "FWD & Bassins de Déflexion",
+        "desc": "Interprétation des données du déflectomètre à masse tombante et rétro-calcul des modules de couches à partir des bassins mesurés."
+      },
+      "cold": {
+        "title": "Matériaux Recyclés à Froid",
+        "desc": "Caractérisation des matériaux à grave-émulsion et bitume moussé utilisés dans la réhabilitation durable des chaussées."
+      },
+      "freeze": {
+        "title": "Gel-Dégel & Température",
+        "desc": "Prise en compte des gradients de température en profondeur et des cycles de gel-dégel dans l'interprétation structurelle."
+      },
+      "monitoring": {
+        "title": "Suivi de Sections Expérimentales",
+        "desc": "Instrumentation et suivi de sections expérimentales pour valider les modèles face au comportement de terrain."
+      }
+    },
+    "timeline": {
+      "title": "Feuille de Route",
+      "current": "En cours",
+      "w2026": {
+        "period": "2027 · Hiver",
+        "title": "Début du doctorat",
+        "desc": "Cours, revue de littérature et définition du programme expérimental."
+      },
+      "s2026": {
+        "period": "2027 · Été",
+        "title": "Premières campagnes expérimentales",
+        "desc": "Premières mesures FWD et caractérisation des matériaux sur sections choisies."
+      },
+      "y2027": {
+        "period": "2028",
+        "title": "Premiers résultats",
+        "desc": "Analyse des premières données et premières soumissions en conférence."
+      },
+      "future": {
+        "period": "2028 →",
+        "title": "À suivre",
+        "desc": "Les jalons, publications et résultats seront ajoutés ici au fil de l'avancement de la recherche."
+      }
+    },
+    "publications": {
+      "title": "Publications & Productions",
+      "comingSoon": "Bientôt disponible",
+      "comingSoonHint": "Les publications et productions apparaîtront ici au fil de l'avancement de la recherche.",
+      "types": {
+        "journal": "Revue",
+        "conference": "Conférence",
+        "preprint": "Prépublication"
+      }
+    },
+    "log": {
+      "title": "Journal / Mises à jour",
+      "hint": "Un journal des évolutions de la recherche — les plus récentes en premier.",
+      "tags": {
+        "milestone": "Jalon",
+        "reading": "Lecture",
+        "experiment": "Expérience",
+        "writing": "Rédaction"
+      }
+    }
+  },
+  "contact": {
+    "kicker": "// contact",
+    "title": "Contact",
+    "subtitle": "Ouvert aux collaborations de recherche, aux questions et aux opportunités. Discutons-en.",
+    "cards": {
+      "email": "E-mail",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "kaggle": "Kaggle"
+    },
+    "downloadCv": "Télécharger le CV (PDF)"
+  }
+}

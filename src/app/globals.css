@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   DESIGN TOKENS — Blade Runner 2049 palette: deep purple + acid green on near
+   black. Exposed to Tailwind v4 via @theme so utilities like `bg-bg-primary`,
+   `text-purple-neon`, `font-display` are generated automatically.
+   ========================================================================== */
+@theme {
+  /* Surfaces */
+  --color-bg-primary: #0a0a0f;
+  --color-bg-secondary: #12121a;
+  --color-bg-elevated: #1a1a24;
+
+  /* Neon accents */
+  --color-purple-neon: #a855f7;
+  --color-purple-deep: #6d28d9;
+  --color-green-acid: #a3e635;
+  --color-green-glow: #bef264;
+
+  /* Text */
+  --color-text-primary: #f4f4f5;
+  --color-text-muted: #71717a;
+
+  /* Fonts (CSS variables injected by next/font in the root layout) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-inter), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+  --font-logo: var(--font-orbitron), var(--font-space-grotesk), sans-serif;
+}
+
+/* Non-Tailwind tokens (used in raw CSS / inline styles). */
+:root {
+  --grid-line: rgba(168, 85, 247, 0.15);
+  --purple-glow: rgba(168, 85, 247, 0.55);
+  --green-glow-soft: rgba(163, 230, 53, 0.5);
+  --header-h: 4rem;
+}
+
+/* ============================================================================
+   BASE
+   ========================================================================== */
+* {
+  border-color: color-mix(in srgb, var(--color-purple-neon) 18%, transparent);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Lenis controls scrolling once mounted; it sets .lenis on <html>. */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-green-acid) 35%, transparent);
+  color: #ffffff;
+}
+
+/* Thin neon scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--color-purple-deep), var(--color-purple-neon));
+  border-radius: 999px;
+  border: 2px solid var(--color-bg-primary);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-purple-neon) var(--color-bg-primary);
+}
+
+/* Visible, on-brand focus ring for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--color-green-acid);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ============================================================================
+   NOISE OVERLAY — a subtle animated grain layer sitting above everything via a
+   fixed element (see <NoiseOverlay/>). feTurbulence encoded as a data URI so no
+   binary asset is required.
+   ========================================================================== */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+  animation: noise-shift 0.6s steps(3) infinite;
+}
+
+@keyframes noise-shift {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-3%, 1%); }
+  66% { transform: translate(2%, -2%); }
+  100% { transform: translate(0, 0); }
+}
+
+/* ============================================================================
+   UTILITIES — neon glow + glitch (glitch is used sparingly: hero title, card
+   hover, page transitions).
+   ========================================================================== */
+@layer utilities {
+  .text-glow-purple {
+    text-shadow: 0 0 8px var(--purple-glow), 0 0 24px rgba(168, 85, 247, 0.3);
+  }
+  .text-glow-green {
+    text-shadow: 0 0 8px var(--green-glow-soft), 0 0 24px rgba(163, 230, 53, 0.3);
+  }
+  .box-glow-purple {
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-purple-neon) 40%, transparent),
+      0 0 20px -4px var(--purple-glow);
+  }
+  .box-glow-green {
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-green-acid) 40%, transparent),
+      0 0 20px -4px var(--green-glow-soft);
+  }
+  /* Faint purple reference grid, used as a section backdrop. */
+  .bg-tech-grid {
+    background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+/* Glitch effect — duplicated chromatic layers clipped on offset slices.
+   Apply .glitch + data-text="..." (mirrors the element's text). */
+.glitch {
+  position: relative;
+  display: inline-block;
+}
+.glitch[data-text]::before,
+.glitch[data-text]::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.85;
+}
+.glitch[data-text]::before {
+  color: var(--color-purple-neon);
+  transform: translate(-2px, 0);
+  clip-path: inset(0 0 0 0);
+  animation: glitch-a 2.6s infinite steps(2);
+}
+.glitch[data-text]::after {
+  color: var(--color-green-acid);
+  transform: translate(2px, 0);
+  animation: glitch-b 2.9s infinite steps(2);
+}
+/* Stronger, continuous variant used on hover. */
+.glitch-active[data-text]::before {
+  animation-duration: 0.45s;
+}
+.glitch-active[data-text]::after {
+  animation-duration: 0.5s;
+}
+
+@keyframes glitch-a {
+  0%, 92%, 100% { clip-path: inset(0 0 100% 0); transform: translate(0, 0); }
+  93% { clip-path: inset(10% 0 60% 0); transform: translate(-3px, -1px); }
+  96% { clip-path: inset(50% 0 20% 0); transform: translate(3px, 1px); }
+}
+@keyframes glitch-b {
+  0%, 90%, 100% { clip-path: inset(100% 0 0 0); transform: translate(0, 0); }
+  91% { clip-path: inset(60% 0 20% 0); transform: translate(3px, 1px); }
+  95% { clip-path: inset(20% 0 50% 0); transform: translate(-3px, -1px); }
+}
+
+/* Animated dashed stroke for the road / section-divider SVGs. */
+@keyframes dash-flow {
+  to { stroke-dashoffset: -1000; }
+}
+
+/* Custom cursor active: hide the native pointer, but keep a text caret inside
+   fields so typing stays usable. */
+.custom-cursor,
+.custom-cursor a,
+.custom-cursor button,
+.custom-cursor [role="button"] {
+  cursor: none;
+}
+.custom-cursor input,
+.custom-cursor textarea,
+.custom-cursor [contenteditable="true"] {
+  cursor: text;
+}
+
+/* ============================================================================
+   ACCESSIBILITY — honour reduced-motion: kill decorative animation, grain and
+   glitch. The 3D canvases and Lenis also check this at runtime.
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .noise-overlay {
+    animation: none;
+  }
+  .glitch[data-text]::before,
+  .glitch[data-text]::after {
+    display: none;
+  }
+}

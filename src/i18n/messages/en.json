@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "title": "Kleison Silva — Civil Engineer",
+    "description": "Civil engineer specialized in pavement mechanics, materials science and computational modeling. Incoming PhD candidate at ÉTS Montréal."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "phd": "PhD",
+    "contact": "Contact",
+    "downloadCv": "Download CV"
+  },
+  "home": {
+    "name": "KLEISON SILVA",
+    "tagline": "Civil Engineer · Pavement Mechanics · Computational Modeling",
+    "subtitle": "PhD Candidate at ÉTS Montréal (incoming) — Winter 2027",
+    "viewProjects": "View Projects",
+    "downloadCv": "Download CV",
+    "highlights": {
+      "research": {
+        "title": "Research",
+        "body": "Non-destructive pavement evaluation, materials characterization and the mechanics behind long-lasting road structures."
+      },
+      "engineering": {
+        "title": "Engineering",
+        "body": "From experimental campaigns to structural design, bridging field measurements with sound civil-engineering practice."
+      },
+      "simulation": {
+        "title": "Simulation",
+        "body": "Finite-element and numerical modeling (Ansys, Comsol, Abaqus) to predict thermomechanical and fatigue behavior."
+      }
+    }
+  },
+  "about": {
+    "metaTitle": "About",
+    "kicker": "// about",
+    "title": "About",
+    "subtitle": "Civil engineer at the intersection of materials, mechanics and computation.",
+    "bio": {
+      "p1": "Civil engineer currently completing dual degrees at the Federal University of Ceará (UFC, Brazil) and INSA Rennes (France), with a research focus on pavement mechanics, materials science and numerical modeling.",
+      "p2": "Incoming PhD candidate at ÉTS Montréal (Canada), investigating non-destructive auscultation techniques — particularly the Falling Weight Deflectometer (FWD) — for municipal pavement evaluation, with emphasis on cold-recycled materials and freeze–thaw behavior.",
+      "p3": "Across research internships and industry work, I connect laboratory experimentation, field measurement and finite-element simulation to understand how road structures deform, fatigue and endure."
+    },
+    "skills": {
+      "title": "Skills",
+      "languagesTitle": "Languages",
+      "groups": {
+        "programming": "Programming",
+        "simulation": "Numerical Simulation",
+        "cad": "CAD / BIM",
+        "experimental": "Experimental",
+        "tools": "Data / Tools"
+      },
+      "levels": {
+        "native": "Native",
+        "b2": "B2"
+      }
+    },
+    "timeline": {
+      "title": "Timeline",
+      "hint": "Click a node to expand its details.",
+      "types": {
+        "education": "Education",
+        "research": "Research",
+        "experience": "Experience"
+      },
+      "status": {
+        "ongoing": "Ongoing",
+        "incoming": "Incoming"
+      },
+      "bsc": {
+        "title": "BSc Civil Engineering",
+        "org": "Federal University of Ceará (UFC) · Brazil",
+        "desc": "Ranked top 5 of 589 students with a 9.33/10 GPA. Broad foundation across structural, geotechnical and transportation engineering."
+      },
+      "fatigue": {
+        "title": "Fatigue of Cementitious Materials",
+        "org": "UFC · ReoM Group",
+        "desc": "Experimental study of the fatigue response of cementitious materials, characterizing S–N behavior under cyclic loading."
+      },
+      "rheology": {
+        "title": "Rheology of Materials",
+        "org": "UFC",
+        "desc": "Investigation of the rheological behavior of construction materials, linking viscoelastic response to composition and temperature."
+      },
+      "thermo": {
+        "title": "Thermomechanical Analysis of Foundations",
+        "org": "UFC",
+        "desc": "Numerical thermomechanical analysis of massive concrete foundations, modeling heat generation and the resulting thermal gradients."
+      },
+      "ultrasonic": {
+        "title": "Ultrasonic Wave Characterization",
+        "org": "UFC · FUNCAP-funded",
+        "desc": "Non-destructive characterization of pavement materials through ultrasonic wave propagation and frequency-response analysis."
+      },
+      "insa": {
+        "title": "Double Degree — Civil & Urban Engineering",
+        "org": "INSA Rennes · France",
+        "desc": "Dual-degree engineering program extending the Brazilian curriculum with a European civil & urban engineering specialization."
+      },
+      "master": {
+        "title": "Master of Research — Design Engineering",
+        "org": "INSA Rennes · France",
+        "desc": "Research-oriented master's focused on design engineering and advanced modeling methods."
+      },
+      "eiffage": {
+        "title": "Pavement Monitoring Internship",
+        "org": "Eiffage · Lyon, France",
+        "desc": "Structural monitoring of highway pavements using non-destructive techniques (FWD), from field campaigns to deflection-basin interpretation."
+      },
+      "phd": {
+        "title": "PhD — Non-Destructive Pavement Evaluation",
+        "org": "ÉTS Montréal · Canada",
+        "desc": "Doctoral research on FWD-based auscultation of municipal pavements, including cold-recycled materials and freeze–thaw effects."
+      }
+    },
+    "terminal": {
+      "title": "Terminal",
+      "hint": "An interactive shell — try 'help', 'whoami' or 'projects'.",
+      "welcome": "Welcome. This is an interactive résumé shell.",
+      "whoami": "Kleison Silva Carvalho — civil engineer · pavement mechanics · computational modeling. Currently between Brazil, France and (soon) Canada.",
+      "phd": "Starting Winter 2027 at ÉTS Montréal — non-destructive evaluation of municipal pavements (FWD, cold-recycled materials, freeze–thaw).",
+      "sudo": "nice try. permission denied — but I admire the curiosity.",
+      "notFound": "command not found. type 'help'."
+    }
+  },
+  "projects": {
+    "kicker": "// work",
+    "title": "Projects",
+    "subtitle": "Research, engineering and experimental work in pavement mechanics and materials.",
+    "filters": {
+      "all": "All",
+      "research": "Research",
+      "internship": "Internship",
+      "academic": "Academic"
+    },
+    "categories": {
+      "research": "Research",
+      "internship": "Internship",
+      "academic": "Academic"
+    },
+    "ongoing": "Ongoing",
+    "viewProject": "View project",
+    "back": "Back to Projects",
+    "keyEquations": "Key Equations",
+    "tags": "Tags",
+    "externalLink": "External link",
+    "items": {
+      "pavement-monitoring": {
+        "title": "Pavement Monitoring of Highway Structures",
+        "summary": "Structural evaluation of highway pavements using the Falling Weight Deflectometer (FWD) and deflection-basin analysis.",
+        "description": "As part of an internship with Eiffage in Lyon, this work monitors the structural condition of highway pavements through non-destructive testing. The Falling Weight Deflectometer applies a calibrated impulse load and records the resulting deflection basin across a set of geophones.\nFrom the measured basins, layer moduli are back-calculated and compared against design expectations, enabling data-driven decisions on maintenance and rehabilitation. Temperature corrections are applied so that measurements taken under different conditions remain comparable."
+      },
+      "fatigue-cementitious": {
+        "title": "Fatigue of Cementitious Materials",
+        "summary": "Characterizing the fatigue life of cementitious materials under cyclic loading on a UTM-25 testing press.",
+        "description": "Conducted within the ReoM group at UFC, this study characterizes how cementitious materials degrade under repeated loading. Specimens are tested on a UTM-25 servo-hydraulic press across a range of stress amplitudes.\nThe resulting stress–life (S–N) relationship is fitted with a Basquin-type power law, providing fatigue parameters that feed into pavement and structural design against cyclic damage."
+      },
+      "ultrasonic-characterization": {
+        "title": "Ultrasonic Wave Characterization of Pavement Materials",
+        "summary": "Non-destructive characterization of pavement materials through ultrasonic wave propagation and frequency-response analysis.",
+        "description": "This FUNCAP-funded project uses ultrasonic waves to probe the elastic properties of pavement materials without damaging the specimens. Wave velocities and frequency-response functions are measured and linked to the material's stiffness and internal structure.\nThe approach offers a fast, repeatable way to track how composition and curing affect mechanical performance, complementing destructive laboratory tests."
+      },
+      "rheology-aam": {
+        "title": "Rheology of Alkali-Activated Materials",
+        "summary": "Investigating the creep and viscoelastic behavior of alkali-activated materials with a Burgers model.",
+        "description": "Alkali-activated materials are a promising low-carbon alternative to ordinary cement. This work studies their time-dependent deformation under sustained load inside a climatic chamber.\nThe measured creep response is described with a four-element Burgers model, separating instantaneous, viscoelastic and viscous contributions to inform durability assessments."
+      },
+      "thermomechanical-foundations": {
+        "title": "Thermomechanical Analysis of Massive Concrete Foundations",
+        "summary": "Modeling heat generation and the resulting thermal gradients in massive concrete foundations with ANSYS.",
+        "description": "Massive concrete elements release significant heat as they cure, and the resulting thermal gradients can crack the structure. Using ANSYS, this study models transient heat transfer coupled with the mechanical response of the foundation.\nThe simulations map temperature fields and stress concentrations over time, supporting choices on casting sequence, cooling and mix design to limit early-age cracking."
+      },
+      "scientific-events": {
+        "title": "Scientific Events & Volunteering",
+        "summary": "Organizing engineering events (Semana de Engenharia, Aqualibrium) and co-authoring an olympic-chemistry e-book.",
+        "description": "Beyond research, I have organized and supported scientific outreach: coordinating the Semana de Engenharia, running the Aqualibrium hydraulic-structures competition, and co-authoring an e-book on olympic chemistry.\nThese activities strengthened skills in communication, teamwork and event logistics while giving back to the student community."
+      }
+    }
+  },
+  "phd": {
+    "metaTitle": "PhD",
+    "kicker": "// doctorate",
+    "title": "PhD Research — ÉTS Montréal",
+    "subtitle": "Non-Destructive Evaluation of Municipal Pavements",
+    "status": "Starting Winter 2027",
+    "description": "Municipal road networks are critical infrastructure whose performance directly affects mobility. In Québec, aging pavements and harsh climatic conditions make improved diagnostic methods essential for planning rehabilitation. This project focuses on non-destructive auscultation techniques — particularly the Falling Weight Deflectometer (FWD) — to better characterize the structural behavior of municipal pavements, including cold-recycled materials (grave-emulsion, foamed bitumen). Temperature variations with depth and freeze–thaw cycles are accounted for to improve interpretation and support decision-making.",
+    "axes": {
+      "title": "Research Axes",
+      "fwd": {
+        "title": "FWD & Deflection Basins",
+        "desc": "Interpreting falling-weight deflectometer data and back-calculating layer moduli from measured basins."
+      },
+      "cold": {
+        "title": "Cold-Recycled Materials",
+        "desc": "Characterizing grave-emulsion and foamed-bitumen materials used in sustainable pavement rehabilitation."
+      },
+      "freeze": {
+        "title": "Freeze–Thaw & Temperature",
+        "desc": "Accounting for temperature gradients with depth and freeze–thaw cycles in structural interpretation."
+      },
+      "monitoring": {
+        "title": "Experimental Section Monitoring",
+        "desc": "Instrumenting and monitoring experimental pavement sections to validate models against field behavior."
+      }
+    },
+    "timeline": {
+      "title": "Roadmap",
+      "current": "Current",
+      "w2026": {
+        "period": "2027 · Winter",
+        "title": "Start of PhD",
+        "desc": "Coursework, literature review and definition of the experimental program."
+      },
+      "s2026": {
+        "period": "2027 · Summer",
+        "title": "First experimental campaigns",
+        "desc": "Initial FWD measurements and material characterization on selected sections."
+      },
+      "y2027": {
+        "period": "2028",
+        "title": "First results",
+        "desc": "Analysis of early data and first conference submissions."
+      },
+      "future": {
+        "period": "2028 →",
+        "title": "To be continued",
+        "desc": "Milestones, publications and results will be added here as the research progresses."
+      }
+    },
+    "publications": {
+      "title": "Publications & Outputs",
+      "comingSoon": "Coming soon",
+      "comingSoonHint": "Publications and outputs will appear here as the research advances.",
+      "types": {
+        "journal": "Journal",
+        "conference": "Conference",
+        "preprint": "Preprint"
+      }
+    },
+    "log": {
+      "title": "Log / Updates",
+      "hint": "A running changelog of the research — newest first.",
+      "tags": {
+        "milestone": "Milestone",
+        "reading": "Reading",
+        "experiment": "Experiment",
+        "writing": "Writing"
+      }
+    }
+  },
+  "contact": {
+    "kicker": "// reach out",
+    "title": "Contact",
+    "subtitle": "Open to research collaborations, questions and opportunities. Let's talk.",
+    "cards": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "kaggle": "Kaggle"
+    },
+    "downloadCv": "Download CV (PDF)"
+  }
+}
